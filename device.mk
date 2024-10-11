@@ -20,15 +20,36 @@ PRODUCT_SHIPPING_API_LEVEL := 31
 PRODUCT_FULL_TREBLE_OVERRIDE := true
 PRODUCT_OTA_ENFORCE_VINTF_KERNEL_REQUIREMENTS := false
 
+# Audio
+PRODUCT_PACKAGES += \
+    MtkInCallService
+
+# Boot animation
+TARGET_SCREEN_HEIGHT := 1600
+TARGET_SCREEN_WIDTH := 720
+TARGET_BOOTANIMATION_HALF_RES := true
+TARGET_BOOTANIMATION_PRELOAD := true
+TARGET_BOOTANIMATION_TEXTURE_CACHE := true
+
 # Charger
 PRODUCT_PACKAGES += \
     charger_res_images_vendor \
     $(DEVICE_PATH)/init/init.sec-charger.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/init.sec-charger.rc \
     libsuspend
 
-# fastbootd
+# Fastbootd
 PRODUCT_PACKAGES += \
     fastbootd
+
+# HIDL
+PRODUCT_PACKAGES += \
+    libhidltransport \
+    libhardware \
+    libhwbinder
+
+# Power Off Alarm
+PRODUCT_PACKAGES += \
+    PowerOffAlarm
 
 # Overlays
 PRODUCT_PACKAGES += \
