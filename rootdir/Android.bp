@@ -7,6 +7,13 @@
 
 // Init configuration files
 prebuilt_etc {
+    name: "fstab.mt6768",
+    src: "etc/fstab.mt6768",
+    vendor: true,
+    ramdisk_available: true,
+}
+
+prebuilt_etc {
     name: "factory_init.connectivity.common.rc",
     src: "etc/factory_init.connectivity.common.rc",
     sub_dir: "init/hw",
