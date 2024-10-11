@@ -1,7 +1,5 @@
 # Unpinned blobs from a05mxx-user 14 UP1A.231005.007 A055FXXU5CXH2 release-keys
 
-#blobs from a05mxx-user 13 14-UP1A.231005.007 A055FXXU4CXF1 release-keys, unless pinned
-
 # DT2W
 system/etc/init/init.dt2w.rc
 
