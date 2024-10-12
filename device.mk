@@ -86,6 +86,7 @@ PRODUCT_CHARACTERISTICS := phone
 PRODUCT_PACKAGES += \
     fstab.enableswap \
     fstab.mt6768 \
+    fstab.mt6768.ramdisk \
     factory_init.connectivity.common.rc \
     factory_init.connectivity.rc \
     factory_init.project.rc \
