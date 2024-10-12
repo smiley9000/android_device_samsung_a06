@@ -16,8 +16,8 @@ $(call inherit-product, device/samsung/a05m/device.mk)
 
 PRODUCT_DEVICE := a05m
 PRODUCT_NAME := lineage_a05m
-PRODUCT_BRAND := samsung
-PRODUCT_MODEL := SM-A055F
+PRODUCT_BRAND := Samsung
+PRODUCT_MODEL := Samsung Galaxy A05
 PRODUCT_MANUFACTURER := samsung
 
 PRODUCT_GMS_CLIENTID_BASE := android-samsung-ss
