@@ -10,17 +10,6 @@
 
 #include "vendor_init.h"
 
-static const variant_info_t a055f_info = {
-    .hwc_value = "",
-    .sku_value = "a05m",
-
-    .brand = "Samsung",
-    .device = "a05m",
-    .marketname = "Samsung Galaxy A05",
-    .model = "SM-A055M",
-    .build_fingerprint = "samsung/a05mxx/a05m:12/SP1A.210812.016/A055FXXU4CXF1:user/release-keys"
-};
-
 static const variant_info_t a055m_info = {
     .hwc_value = "",
     .sku_value = "a05m",
@@ -28,8 +17,19 @@ static const variant_info_t a055m_info = {
     .brand = "Samsung",
     .device = "a05m",
     .marketname = "Samsung Galaxy A05",
+    .model = "SM-A055M",
+    .build_fingerprint = "samsung/a05mxx/a05m:12/SP1A.210812.016/A055MUBS6CXI3:user/release-keys"
+};
+
+static const variant_info_t a055f_info = {
+    .hwc_value = "",
+    .sku_value = "a05m",
+
+    .brand = "Samsung",
+    .device = "a05m",
+    .marketname = "Samsung Galaxy A05",
     .model = "SM-A055F",
-    .build_fingerprint = "samsung/a05mxx/a05m:12/SP1A.210812.016/A055FXXU4CXF1:user/release-keys"
+    .build_fingerprint = "samsung/a05mxx/a05m:12/SP1A.210812.016/A055FXXS6CXI2:user/release-keys"
 };
 
 
