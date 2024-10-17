@@ -5,8 +5,8 @@ init_daemon_domain(lpm)
 
 allow lpm self:capability { sys_boot net_admin sys_boot sys_admin };
 allow lpm self:netlink_kobject_uevent_socket { create bind read setopt };
-allow lpm efs_file:dir rw_dir_perms;
-allow lpm efs_file:file create_file_perms;
+#allow lpm efs_file:dir rw_dir_perms;
+#allow lpm efs_file:file create_file_perms;
 allow lpm gpu_device:file create_file_perms;
 allow lpm gpu_device:dir rw_dir_perms;
 allow lpm gpu_device:chr_file rw_file_perms;
