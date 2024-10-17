@@ -169,6 +169,4 @@ DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 # Inherit the proprietary files
 include vendor/samsung/a05m/BoardConfigVendor.mk
 
-# Inherit the keys
-include vendor/lineage-priv/keys/keys.mk
 
