@@ -25,7 +25,6 @@ allow lpm efs_file:file create_file_perms;
 
 # Allow lpm to interact with property and init sockets
 allow lpm property_socket:sock_file write;
-allow lpm init:unix_stream_socket connectto;
 
 # Allow lpm to set specific properties
 set_prop(lpm, sec_charger_mode_prop);
