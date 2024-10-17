@@ -63,6 +63,10 @@ PRODUCT_PACKAGES += \
 #PRODUCT_PACKAGES += \
 #    PowerOffAlarm
 
+#LPM
+PRODUCT_PACKAGES += \
+    system_ext_31.0.cil
+
 # Overlays
 PRODUCT_PACKAGES += \
     SystemUIOverlay_A05 \
