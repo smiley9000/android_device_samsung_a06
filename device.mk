@@ -72,7 +72,7 @@ PRODUCT_PACKAGES += \
     SystemUIOverlay_A05 \
     FresOverlay_A05 \
     CCOverlay_A05 \
-    TPOverlay_A05\
+    TPOverlay_A05 \
     WIFIRES_Overlay_A05
 
 DEVICE_PACKAGE_OVERLAYS += \
