@@ -12,7 +12,6 @@
      entries do not follow the convention, but all new entries should. -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Height of the status bar -->
-    <dimen name="status_bar_height_portrait">49.0px</dimen>
     <dimen name="rounded_corner_radius_bottom">38.0dip</dimen>
     <dimen name="rounded_corner_radius_top">38.0dip</dimen>
 </resources>
