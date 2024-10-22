@@ -67,12 +67,9 @@ PRODUCT_PACKAGES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
-    CarrierConfigOverlay_JDM_A05 \
     FrameworksResOverlay_JDM_A05 \
-    SystemUIOverlay_JDM_A05 \
-    TelephonyOverlay_JDM_A05 \
-    WifiResOverlay_JDM_A05
-
+    SystemUIOverlay_JDM_A05 
+    
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay-lineage
 

@@ -1,5 +1,0 @@
-runtime_resource_overlay {
-    name: "WifiResOverlay_JDM_A05",
-    sdk_version: "current",
-    product_specific: true,
-}
