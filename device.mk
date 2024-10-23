@@ -62,8 +62,7 @@ PRODUCT_PACKAGES += \
 # MTK
 PRODUCT_PACKAGES += \
     MtkInCallService \
-    PowerOffAlarm \
-    BesLoudness
+    PowerOffAlarm 
 
 # Overlays
 PRODUCT_PACKAGES += \
