@@ -11,25 +11,24 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-# Inherit from a05m device
-$(call inherit-product, device/samsung/a05m/device.mk)
+# Inherit from a06 device
+$(call inherit-product, device/samsung/a06/device.mk)
 
 # Inherit from wingcamera-samsung
-$(call inherit-product, vendor/samsung/wing-camera/wingcamera-samsung.mk)
 
-PRODUCT_DEVICE := a05m
-PRODUCT_NAME := lineage_a05m
+PRODUCT_DEVICE := a06
+PRODUCT_NAME := lineage_a06
 PRODUCT_BRAND := Samsung
-PRODUCT_MODEL := Galaxy A05
+PRODUCT_MODEL := Galaxy A06
 PRODUCT_MANUFACTURER := samsung
 
-PRODUCT_GMS_CLIENTID_BASE := android-samsung-ss
-PRODUCT_NO_CAMERA := true
+PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="a05mxx-user 14 UP1A.231005.007 A055FXXS6CXI2 release-keys"
+    PRIVATE_BUILD_DESC="a06xx-user 12 SP1A.210812.016 A065FXXU1AXG8 release-keys"
 
-BUILD_FINGERPRINT := samsung/a05mxx/a05m:14/UP1A.231005.007/A055FXXS6CXI2:user/release-keys
+BUILD_FINGERPRINT := samsung/a06xx/a06:12/SP1A.210812.016/A065FXXU1AXG8:user/release-keys
+
 
 PRODUCT_SYSTEM_PROPERTY_OVERRIDES += \
      ro.debuggable=0
