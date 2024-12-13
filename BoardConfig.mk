@@ -186,6 +186,6 @@ DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 #WIFI_HIDL_FEATURE_DUAL_INTERFACE := true
 
 # Inherit the proprietary files
-include vendor/samsung/a05m/BoardConfigVendor.mk
+include vendor/samsung/a06/BoardConfigVendor.mk
 
 
