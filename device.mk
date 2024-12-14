@@ -136,8 +136,8 @@ PRODUCT_EXTRA_VNDK_VERSIONS := 31
 #    android.hardware.wifi-service
 
 # Inherit the proprietary files
-$(call inherit-product, vendor/samsung/a05m/a05m-vendor.mk)
+$(call inherit-product, vendor/samsung/a06/a06-vendor.mk)
 
 # Inherit the sign keys
-$(call inherit-product, vendor/lineage-priv/keys/keys.mk)
+#$(call inherit-product, vendor/lineage-priv/keys/keys.mk)
 
