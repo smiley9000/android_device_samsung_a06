@@ -10,32 +10,32 @@
 
 #include "vendor_init.h"
 
-static const variant_info_t a055m_info = {
+static const variant_info_t a065f_info = {
     .hwc_value = "",
-    .sku_value = "a05m",
+    .sku_value = "a06",
 
     .brand = "Samsung",
-    .device = "a05m",
-    .marketname = "Samsung Galaxy A05",
+    .device = "a06",
+    .marketname = "Samsung Galaxy A06",
     .model = "SM-A055M",
-    .build_fingerprint = "samsung/a05mxx/a05m:12/SP1A.210812.016/A055MUBS6CXI3:user/release-keys"
+    .build_fingerprint = "samsung/a06xx/a06:12/SP1A.210812.016/A065FXXS2AXJ2:user/release-keys"
 };
 
-static const variant_info_t a055f_info = {
+static const variant_info_t a065m_info = {
     .hwc_value = "",
-    .sku_value = "a05m",
+    .sku_value = "a06",
 
     .brand = "Samsung",
-    .device = "a05m",
-    .marketname = "Samsung Galaxy A05",
-    .model = "SM-A055F",
-    .build_fingerprint = "samsung/a05mxx/a05m:12/SP1A.210812.016/A055FXXS6CXI2:user/release-keys"
+    .device = "a06",
+    .marketname = "Samsung Galaxy A06",
+    .model = "SM-A065m",
+    .build_fingerprint = "samsung/a06xx/a06:12/SP1A.210812.016/A065MXXS2AXJ2:user/release-keys"
 };
 
 
 static const std::vector<variant_info_t> variants = {
-    a055f_info,
-    a055m_info,
+    a065m_info,
+    a065f_info,
 };
 
 void vendor_load_properties() {
