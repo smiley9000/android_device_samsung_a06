@@ -1,4 +1,4 @@
-# Android device tree for samsung SM-A055F (a05m)
+# Android device tree for samsung SM-A065F (a06)
 
 ```
 #
