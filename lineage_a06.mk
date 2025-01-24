@@ -24,8 +24,8 @@ PRODUCT_MANUFACTURER := samsung
 
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
-BUILD_FINGERPRINT := samsung/a06xx/a06:12/SP1A.210812.016/A065FXXS2AXJ2:user/release-keys
+TARGET_EXCLUDES_AUDIOFX := true
 
-
-PRODUCT_SYSTEM_PROPERTY_OVERRIDES += \
-     ro.debuggable=0
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    BuildDesc="a05mxx-user 14 UP1A.231005.007 A055FXXS7CXJ1 release-keys" \
+    BuildFingerprint=samsung/a05mxx/a05m:14/UP1A.231005.007/A055FXXS7CXJ1:user/release-keys
